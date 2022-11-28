@@ -1,24 +1,35 @@
 
- # Name of the Project
+ # Code-challenge
  *****
- ### Author : Name Date
+ ### Author :Teresa Maina Name                                        Date: 28/11/2022
  ****
- ## Project Description
- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+ ## Project Description-Toy problems
+ Challenge 1: Student Grade Generator
+ This is a program that prompts the user to key in the student marks. The value input should be between 0-100 and the correct grade is output respectivelyas below:
+ A > 79, B > 60 to 79, C > 59 to 49, D > 40 to 49, E > less 40.
 
- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+ //Everything I want my fuction to do I wrap it in the curly braces
+ if a student
+ // On keying in the marks that the student scored the function diplays the grade scored by the student for example: 
+
+ if (student score is <49){
+    return "E"
+ }
+ //console.log(30)
+ => E
  ******
-
- ## SCREENSHOTS
- - link 1
- - link 2
-
-
+ Challenge 2: Speed Detector
+This is a program that inputs the speed of a car for example 90km/hr. If thr speed  is 70 the function prints 'ok'. Otherwise for every 5km/h above the limit (70) it should earn the driver 1 demerit points and print the total number of demerit points.
+ 
  ********
+Challenge 3: Net Salary Calculator
+It is a code that calculate the PAYEE TAX,NHIF,NSSF Deductions and net salary.
+
  ## SetUp Instruction
  ### Requirements
- * [Lang](lang Url)
- * [Framework](Framework URL)
+ * [Lang](lang Url)-English
+ * [Framework](Framework URL)-none
  * Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
  * [Testing Platform](Platform URL)
 
@@ -38,27 +49,22 @@
  >  $ pip install -r requirements.txt
  To install all requirements
 
- > $ python3 manage.py runserver
+ > $ Javascript manage.js runserver
  Then run server with the above command
  *****
  ## Live Link
  Or you can access the web application directly via this [LINK.](link.com/)
  *****
  ## Dependencies
- - Package Name
- - Package Name
- - Package Name
- - Package Name
+ - Package Name-none
  *****
  ## Technologies Used
- 1. HTML
- 2. MdBootstrap
- 3. HTML
- 4. CSS
- 5. JavaScript
+ 1.HTML
+ 2.CSS
+ 3.JavaScript
  *****
  ## Contact Information
- * Email : example@gmail.com
+ * Email : tenjerim@gmail.com
  *****
  ## [License](LICENSE)
  MIT License
