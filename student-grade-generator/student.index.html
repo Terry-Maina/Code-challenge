@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading Generator</title>
+    <style>
+        html{
+            background-color:bisque
+        }
+        #Main{
+            width:75%;
+            border:solid 1px;
+            margin:0 auto;
+        }
+        h1{
+            text-align: center;
+        }
+        input{
+            width: 25%;
+        }
+        input, button{
+            display: block;
+            margin: 5% auto;
+            padding: 5px;
+            font-weight: bolder;
+        }
+        #Grade{
+            text-align: center;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div id="Main">
+        <h1>Student Grade Generator</h1>
+        <div>
+            <input placeholder="input marks" min="0" max="100" type="number" name="" id="Marks">
+            <button onclick="handleClick(event)">Grade</button>
+            <div id="Grade">E</div>
+        </div>
+    </div>
+    <script src="./student.index.js"></script>
+</body>
+</html>

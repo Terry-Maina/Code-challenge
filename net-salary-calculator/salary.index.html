@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Calculator</title>
+</head>
+<body>
+    <div id="Basic Salary">
+        <h1>Monthly Net Salary Calculator</h1>
+        <input id="Basic" type="number" placeholder="Basic Salary" min="0" oninput="handleSalary(event)">
+        <input class="allowances" type="number" placeholder="allowance 1" min="0" oninput="handleSalary(event)">
+        <input class="allowances" type="number" placeholder="allowance 2" min="0" oninput="handleSalary(event)">
+        <input class="allowances" type="number" placeholder="allowance 3" min="0" oninput="handleSalary(event)">
+        <input class="allowances" type="number" placeholder="allowance 4" min="0" oninput="handleSalary(event)">
+    </div>
+    <div>NHIF<span id="nhif"></span></div>
+    <div>NSSF<span id="nssf"></span></div>
+    <div>PAYEE<span id="payee"></span></div>
+    <div>taxableincome<span id="taxableincome"></span></div>
+    <div>Net pay<span id="netpay"></span></div>
+    <script src="./index.js"></script>
+</body>
+</html>
