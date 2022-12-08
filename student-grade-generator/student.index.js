@@ -16,7 +16,7 @@ function checkScore(studentScore){
         return "Enter a valid Number"
     }
 }
-    //console.log (checkScore (80))
+    //console.log (checkScore (80)) for every score input a grade is assigned respectively
 
     function handleClick(event) {
         let marks = parseInt(document.getElementById("Marks").value)

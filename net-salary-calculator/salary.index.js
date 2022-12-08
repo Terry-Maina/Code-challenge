@@ -5,7 +5,7 @@ function grossIncome(basicSalary, ...allowances){
      }
      return sum
      }
-     //console.log(grossIncome(20000, 6000, 43000))
+     //console.log(grossIncome(20000, 6000, 43000))calculates the nhif rate for every bandwidth
      function calculateNHIF(grossPay){
         if(grossPay < 6000){
             return 150
@@ -57,6 +57,8 @@ function grossIncome(basicSalary, ...allowances){
             return 1700
         }
     }
+    // the handleSalary allows us to get the gross income,deductions made on the gross and the net pay after deducting the payee
+    
     function handleSalary (event){
         let basic =parseInt(document.getElementById("Basic").value)
         let basicsalary = Boolean(basic) ? basic : 0
@@ -73,6 +75,7 @@ function grossIncome(basicSalary, ...allowances){
         let payee = PAYEE(taxableIncome)
         let netSalary = netPay(taxableIncome, payee)
 
+        //this extracts the elements from HTML by their ID
         document.getElementById("nhif").textContent = nhif
         document.getElementById("nssf").textContent = nssf
         document.getElementById("payee").textContent = payee
@@ -91,7 +94,7 @@ function grossIncome(basicSalary, ...allowances){
         }
         return grossIncome
     }
-    //console.log(taxablePay(50000, 1100, 5000))
+    //console.log(taxablePay(50000, 1100, 5000)) gives the taxablepay for every salary range
     function PAYEE(taxablepay){
         if(taxablepay <= 24000){
             return taxablepay * 0.1

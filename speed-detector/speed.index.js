@@ -10,7 +10,7 @@ if (speedCar <=70){
     return "Lincense suspended"
 }
 }
-//console.log(checkSpeedCar(95))
+//console.log(checkSpeedCar(95)) for every five points above 70 a demerit point is given,speeds above 130 the license is suspended
 
 function handleClick(event) {
     let speed = parseInt(document.getElementById ("Speed").value)
